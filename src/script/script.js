@@ -38,7 +38,7 @@ GreetTyper.prototype.typing = function() {
 
     document.getElementById("greet").innerHTML = `<span class="txt">${this.txt}</span>`;
 
-    let speed = 300;
+    let speed = 200;
 
     if (this.isDeleting) {
         speed /= 2;
