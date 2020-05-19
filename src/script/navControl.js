@@ -43,6 +43,7 @@ function btnHandler(){
         
         localStorage.setItem(CACHE_KEY, JSON.stringify(history));
         addToList(history)
+        location.reload();
 
     } else {
        alert("Sorry, your browser does not support Web Storage...");

@@ -25,6 +25,7 @@ function deleteHandler() {
     const CACHE_KEY = 'greeting_data';
     deleteRowData();
     localStorage.removeItem(CACHE_KEY)
+    location.reload();
 
 }
 
