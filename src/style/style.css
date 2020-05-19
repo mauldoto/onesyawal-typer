@@ -120,19 +120,23 @@ td {
     color: red;
 }
 
+h2 {  width: 500px;}
+h1 {  width: 800px;}
+p { width: 500px;}
+
 @media screen and (max-width: 1000px){
     h2 {  width: 500px;}
-    h1 {  width: 800px;}
+    h1 {  width: 700px;}
     p { width: 500px;}
 }
 
 @media screen and (max-width: 768px){
-    h2 {font-size: 1.4rem; width: 300px;}
-    h1 {font-size: 1.8rem; width: 500px;}
-    p {font-size: 1.2rem; width: 300px;}
+    h2 {font-size: 1.4rem; width: 400;}
+    h1 {font-size: 1.8rem; width: 550px;}
+    p {font-size: 1.2rem; width: 400;}
 }
 
-@media screen and (max-width: 480px){
+@media screen and (max-width: 660px){
     h2 {font-size: 1.2rem; width: 200px;}
     h1 {font-size: 1.5rem; width: 250px;}
     p {font-size: 0.8rem; width: 200px;}
