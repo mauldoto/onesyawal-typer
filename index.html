@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./src/style/style.css">
+    <title>One Syawal Typer</title>
+</head>
+<body>
+    <div class="container">
+        <div class="content">
+            <h2 id="title"></h2>
+            <h1 id="greet"></h1>
+            <p>Macam macam ucapan lebaran warga +62</p>
+        </div>
+    </div>
+    <span class="setting" style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>
+
+    <div id="mySidenav" class="sidenav">
+        <span class="closebtn" onclick="closeNav()">&times;</span>
+        <form action="#" class="input" id="myForm">
+            <input id="kategori" class="input-style" type="text" placeholder="Masukan Kategori">
+            <textarea id="ucapan" class="input-style" cols="5" rows="5" placeholder="Masukan Ucapan"></textarea>
+            <button type="button" id="sub" class="input-style">Input Ucapan</button>
+        </form>
+        <div class="table input-style">
+            <table id="listTable">
+                <tr>
+                    <th width="20%">No.</th>
+                    <th width="200px">Category</th>
+                </tr>
+            </table>
+            <button type="button" id="" class="input-style delete">Hapus List</button>
+        </div>
+    </div>
+    
+    <script src="./src/script/script.js"></script>
+    <script src="./src/script/navControl.js" ></script>
+    <script src="./src/script/listGreeting.js"></script>
+</body>
+</html>
