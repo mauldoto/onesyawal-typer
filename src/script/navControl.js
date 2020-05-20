@@ -27,8 +27,8 @@ function btnHandler(){
         if (category === '' && greeting === '') {
             alert("isi semua form nya ya akhi/ukhty !!!");
             return
-        } else if (greeting.length > 50) {
-            alert("Maksimal karakter cuma 50 ya akhi/ukthy");
+        } else if (greeting.length > 100) {
+            alert("Maksimal karakter cuma 100 ya akhi/ukthy");
             return
         }
 
