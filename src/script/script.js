@@ -72,6 +72,8 @@ const greeting = [{
 // fungsi init
 function init() {
     let history = JSON.parse(localStorage.getItem('greeting_data')) === null ? greeting : JSON.parse(localStorage.getItem('greeting_data')) ;
+    // let bg = JSON.parse(localStorage.getItem('bg_data')) === null ? null : JSON.parse(localStorage.getItem('bg_data'))
+    // console.log(bg);
     new GreetTyper(history)
     addToList()
 }
