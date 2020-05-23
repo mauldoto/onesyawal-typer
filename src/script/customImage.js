@@ -22,6 +22,8 @@ function readURL(files){
     if(files){
        reader.readAsDataURL(files);
     }
+
+    alert("Background hanya berlaku temporary, kalau udah di set jangan di reset ya")
  }
 
 let ctrImg = document.getElementById("backgreen");
